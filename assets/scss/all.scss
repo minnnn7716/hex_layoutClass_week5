@@ -1,5 +1,16 @@
-@import './layout/header.scss';
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+// google icon
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp');
+
+// bootstrap
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../scss/utils/variables';
+@import '../../node_modules/bootstrap';
+
+// custom
+// -ejs
+@import './layout/nav.scss';
 @import './layout/footer.scss';
-
-
-@import './pages/index.scss';
+// -page
+@import './pages/custom.scss';

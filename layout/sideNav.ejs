@@ -1,0 +1,55 @@
+<nav class="navbar navbar-light bg-light py-8 flex-column align-items-stretch fixed-top">
+  <div>
+    <a class="navbar-brand d-block mb-6 me-0 px-8 py-1" href="index.html">
+      <h1 class="navbar-logo">ANSWER</h1>
+    </a>
+    <ul class="navbar-nav text-dark fw-bold">
+      <li class="nav-item">
+        <a class="nav-link px-8 py-1 my-2 d-flex" href="#">
+          <span class="material-icons me-4">assessment</span>
+          <p class="mb-0">Dashboard</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-8 py-1 my-2 d-flex" href="#">
+          <span class="material-icons me-4">question_answer</span>
+          <p class="mb-0">Question</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link py-1 my-2 d-flex <%= page === 'assignment' ? 'active ps-7 pe-8 border-4 border-start border-success' : 'px-8' %>"
+          href="index.html">
+          <span class="material-icons me-4">assignment</span>
+          <p class="mb-0">Assignment</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-8 py-1 my-2 d-flex" href="#">
+          <span class="material-icons me-4">video_library</span>
+          <p class="mb-0">Course</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link py-1 my-2 d-flex <%= page === 'admin' ? 'active ps-7 pe-8 border-4 border-start border-success' : 'px-8' %>"
+          href="admin.html">
+          <span class="material-icons me-4">people</span>
+          <p class="mb-0">Admin</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-8 py-1 my-2 d-flex" href="#">
+          <span class="material-icons me-4">settings</span>
+          <p class="mb-0">Settings</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="px-8 d-flex align-items-center">
+    <img class="userImg img-fluid rounded-circle me-4 flex-shrink-0" src="../assets/images/andychen.jpeg"
+      alt="Andy Chen user image">
+    <div class="lh-sm">
+      <p class="fw-bold mb-1">Andy Chen</p>
+      <a class="fs-7 link-secondary text-decoration-none" href="mailto:andy0401@mail.com">andy0401@mail.com</a>
+    </div>
+  </div>
+</nav>

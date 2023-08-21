@@ -1,0 +1,47 @@
+.w-34 {
+  width: 34%;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+code {
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: $gray-100;
+  border-radius: 2px;
+}
+
+.material-icons,
+.material-icons-outlined {
+  vertical-align: middle;
+}
+
+.navbar {
+  width: 296px;
+  height: 100vh;
+
+  &-brand {
+    transition: all ease .3s;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+  &-logo {
+    width: 151px;
+    height: 40px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url('../images/logo-ANSWER.svg');
+  }
+}
+
+.userImg {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
