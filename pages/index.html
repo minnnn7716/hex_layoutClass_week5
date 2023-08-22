@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ANSWER｜Assigment</title>
+  <%- include('./layout/head'); -%>
 </head>
 
 <body>
   <%- include('./layout/sideNav', { page: 'assignment' }); -%>
     <div>
-      <div class="main px-5 ms-auto" style="width: calc(100% - 296px);">
+      <div class="main px-5 ms-auto">
         <div class="container-fluid">
           <ul class="nav py-8 align-items-center">
             <li class="nav-brand d-flex align-items-center me-8">
@@ -37,13 +38,13 @@
           </ul>
           <div class="d-flex mb-2 align-items-center justify-content-between">
             <a class="link-dark text-decoration-none fw-bold d-flex align-items-center" data-bs-toggle="collapse"
-              href="#collapseExample" role="button">
+              href="#assigmentCollapse" role="button">
               <span class="me-2">All (4)</span>
               <span class="material-icons text-success">expand_more</span>
             </a>
             <p class="fs-8 text-seondary mb-0">2 comments</p>
           </div>
-          <div class="collapse show" id="collapseExample">
+          <div class="collapse show" id="assigmentCollapse">
             <div class="d-flex justify-content-between">
               <div class="list-group me-4 w-34 flex-shrink-0">
                 <a href="#" class="list-group-item list-group-item-action active p-3">
@@ -109,7 +110,7 @@
                   </div>
                   <div class="card-body pt-4 pe-8 pb-6 ps-4">
                     <div class="d-flex align-items-start">
-                      <img class="userImg img-fluid rounded-circle flex-shrink-0 me-2"
+                      <img class="userImg userImg-sm img-fluid rounded-circle flex-shrink-0 me-2"
                         src="../assets/images/emilywang.jpeg" alt="Emily Wang user image">
                       <div>
                         <div class="mb-4">
@@ -134,7 +135,7 @@
                       </div>
                     </div>
                     <div class="d-flex align-items-start">
-                      <img class="userImg img-fluid rounded-circle flex-shrink-0 me-2"
+                      <img class="userImg userImg-sm img-fluid rounded-circle flex-shrink-0 me-2"
                         src="../assets/images/andychen.jpeg" alt="Andy Chen user image">
                       <div>
                         <div class="mb-4 d-flex justify-content-between">
